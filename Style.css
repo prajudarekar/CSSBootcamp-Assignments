@@ -1,0 +1,174 @@
+/*************first section*****************/
+.box-content{
+    width:400px;
+background-color: rgb(48, 210, 156);
+padding: 80px 40px;
+margin:60px auto;
+font-family: sans-serif;
+border-radius: 10px;
+}
+.box-header{
+    font-size: 50px;
+    
+}
+.box-para{
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.boxbtn{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/*********************second section**********************/
+.profile-card{
+    width: 450px;
+    height: auto;
+    border:1px solid lightgray;
+    border-radius: 10px;
+    margin:60px auto;
+    font-family: sans-serif;
+}
+.profile{
+    padding: 20px 50px;
+
+}
+.profile-title{
+    font-weight: lighter;
+}
+
+.profile-para{
+    font-size: 18px;
+    color:gray;
+}
+.profile-body{
+    display: flex;
+    margin: 15px;
+    
+}
+.profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    box-sizing: border-box;
+    margin: 10px 35px;
+}
+.profile-footer{
+    border-top: 1px solid lightgray;
+   /* padding: 20px 10px;*/
+}
+.profile-btn{
+    font-size: 22px;
+padding: 30px 40px;
+    background-color: white;
+    text-decoration: none;
+    color:rgb(63, 104, 238);
+    box-sizing: border-box;
+}
+
+
+/****************card*********/
+.card{
+    width:370px;
+    font-family: sans-serif;
+    border:1px solid lightgray;
+    border-radius: 14px;
+    margin:60px auto;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    box-sizing: border-box;
+}
+
+.card-body{
+    padding: 25px 20px;
+}
+.cardlink{
+    color:rgb(77, 76, 76);
+    font-weight: lighter;
+}
+.cardlink span{
+    margin-right: 5px;
+}
+.cardheader{
+    font-size: 22px;
+}
+.card-para{
+    font-size: 18px;
+    color: gray;
+}
+.cardbtn{
+    font-size: 18px;
+    padding: 12px 30px;
+        background-color: white;
+        color:rgb(27, 77, 243);
+        border: 1px solid lightgray;
+        border-radius: 10px;
+       
+}
+
+
+/******************login card***********************/
+.login-card{
+    width:370px;
+    font-family: sans-serif;
+    /*border:1px solid lightgray; */
+    border-radius: 14px;
+    margin:60px auto;  
+    padding: 40px 20px; 
+    text-align: center;
+}
+.loginheader-title{
+    font-size: 52px;
+    font-family: "Sofia", sans-serif;
+}
+.login-subtitle{
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.login-input{
+width: 70%;
+padding: 12px 20px;
+box-sizing: border-box;
+margin:8px 5px;
+border: 1px solid lightgray;
+border-radius: 8px;
+color:black;
+}
+.loginbtn{
+    padding: 13px 40px;
+    border-radius: 20px;
+    background-color: black;
+    border:none;
+    color:whitesmoke;
+    margin: 10px 0;
+}
+.login-body{
+    font-size: 12px;
+    margin: 25px 0;
+    color: rgb(183, 181, 181);
+
+}
+
+.login-body a{
+    font-weight: bold;
+   /* color: inherit;*/
+    color:rgb(57, 57, 57);
+
+}
+
+.login-footer {
+    margin:10px 44px;
+    font-size: 13px;
+    color: rgb(183, 181, 181);
+}
