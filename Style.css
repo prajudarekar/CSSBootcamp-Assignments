@@ -1,0 +1,213 @@
+/*************food Card******************/
+.food-card{
+    width:450px;
+    padding: 10px 10px;
+    font-family: sans-serif;
+    margin:60px auto;
+    border:1px solid lightgray;
+    border-radius: 14px;
+}
+
+.food-cardimg{
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 14px;
+}
+.food-header{
+    position: relative;
+
+}
+.food-headertext1{
+   position: absolute;
+   bottom: 10px; 
+   background-color: #3939f7;
+   color:whitesmoke;
+   padding: 2px 10px;
+}
+.food-headertext2{
+    position: absolute;
+    right: 10px;
+    bottom: 10px; 
+    background-color: whitesmoke;
+    color:darkgray;
+    padding: 2px 10px;
+    border-radius: 10px;
+ }
+ .foodcard-body-title{
+    font-weight: bold;
+    font-family: sans-serif;
+font-size: 22px;
+margin:15px 0;
+}
+.foodcard-body-subtitle{
+    font-family: sans-serif;
+font-size: 18px;
+margin:15px 0;
+color:darkgray;
+}
+
+.food-footercard{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: row;
+    border-top:1px solid rgb(228, 225, 225);
+    padding: 10px 0;
+    gap:10px;
+    
+}
+.foodsafety{
+    width:70px;
+    height: 20px;
+    font-size: 8px;
+    margin-top: 7px;
+   /* border:1px solid gray;*/
+    background-color:Teal;
+    text-align: center;
+    border-radius: 4px;
+padding: 2px 0;
+
+}
+.foodsafety-txt1{
+    padding: 0 4px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to  right,#f98b63, #cc9d03);
+
+    /*background-color:#f98b63;*/
+    border-radius: 1px;
+    margin: 0 1px;
+}
+.foodsafety-txt2{
+    margin: 10px 0;
+    color:white;
+    letter-spacing: 2px;
+}
+
+.food-footertxt {
+    font-family: sans-serif;
+    font-size: 16px;
+    color:darkgray; 
+
+}
+    
+/****************Baneer card***************/
+.banner-card
+{
+    width: 700px;
+    margin: 60px auto;
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    border-radius: 14px;
+
+}
+.bannercontent{
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    color: white;  
+}
+.banner-body-btn{
+    left: 50px;
+    right: 50px;
+    background-color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-left: 200px;
+
+}
+.banner-body-head{
+  /*  margin:0 60px;*/
+  margin-left: 100px;
+
+}
+.banner-body-para span{
+    margin-left: 200px;
+
+}
+
+
+/***********Zomato card*********/
+.zomato-card{
+    width: 800px;
+    height:300px;
+    margin: 60px auto;
+    position: relative;   
+}
+
+.zomato-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.zomato-content{
+    position: absolute;
+    bottom: 50px;
+    left: 75px;
+    color: white;
+}
+.zomato-head{
+    font-style: italic;
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.zomato-para{
+    margin-left: 100px;
+    font-size: 22px;
+}
+.zomato-search{
+    display: flex;
+    margin-left:100px;
+    
+}
+.zomato-input{
+    padding: 10px 30px;
+}
+.zomato-input1{
+    padding: 10px 50px;
+}
+
+/**********content*********/
+.profilebg{
+    width: 600px;
+    margin: 60px auto;
+}
+.bg{
+    width: 600px;
+    margin: 60px auto;
+    position: relative;
+}
+.bgcover{
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 14px;
+}
+.content{
+    position: absolute;
+    bottom: -160px;
+    left: 180px;
+}
+.imgcontent{
+    position: absolute;
+     bottom: -30px;
+     left: 240px;
+}
+.bguser{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    border:5px solid white;
+
+}
+.btn{
+    background-color: white;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+}
